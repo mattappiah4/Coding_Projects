@@ -1,0 +1,25 @@
+public class ChangeConverter{
+    static int totalChange = 648;
+    static int halfDollars = totalChange/50;
+    static int HDamount = totalChange - (halfDollars*50);
+    static int Quarters = HDamount/25;
+    static int Qamount = HDamount - (Quarters*25);
+    static int Dimes = Qamount/10;
+    static int Damount = Qamount - (Dimes*10);
+    static int Nickels = Damount/5;
+    static int Pennies = Damount/1;
+
+public static void main (String[] args) {
+    System.out.println("The change you entered is " +totalChange);
+    System.out.println("The number of half-dollars to be returned " +halfDollars);
+    System.out.println("The number of quaters to be returned " +Quarters);
+    System.out.println("The number of dimes to be returned " +Dimes);
+    System.out.println("The number of nickels to be returned " +Nickels);
+    System.out.println("The number of pennies to be returned " +Pennies);
+
+}
+
+     
+
+
+}
